@@ -22,7 +22,7 @@ public class DataBase {
 
 	// Database credentials
 	static final String USER = "root";
-	static final String PASS = "xaxaxouxou2211";
+	static final String PASS = "password";
 	/////////////////////
 	private int choice;
 	private String username;
@@ -95,15 +95,15 @@ public class DataBase {
 
 			// TABLE MESSAGES
 			stmt.executeUpdate("INSERT INTO messages (MesID, Sender, Receiver, MessageData, DateTime, NewMessage)"
-					+ " VALUES(1,'user','viewer','ti kaneis re file?', NOW(), false) ");
+					+ " VALUES(1,'user','viewer','hello? how you doing?', NOW(), false) ");
 			stmt.executeUpdate("INSERT INTO messages (MesID, Sender, Receiver, MessageData, DateTime, NewMessage)"
-					+ " VALUES(2,'viewer','mod','kala... esy?', NOW(), false) ");
+					+ " VALUES(2,'viewer','mod','all good. How about you?', NOW(), false) ");
 			stmt.executeUpdate("INSERT INTO messages (MesID, Sender, Receiver, MessageData, DateTime,NewMessage)"
-					+ " VALUES(3,'mod','super','ti xamparia?', NOW(),false) ");
+					+ " VALUES(3,'mod','super','I am fine', NOW(),false) ");
 			stmt.executeUpdate("INSERT INTO messages (MesID, Sender, Receiver, MessageData, DateTime,NewMessage)"
-					+ " VALUES(4,'super','admin','tpt... na edw...apla vythizetai to ploio', NOW(),false) ");
+					+ " VALUES(4,'super','admin','nice!', NOW(),false) ");
 			stmt.executeUpdate("INSERT INTO messages (MesID, Sender, Receiver, MessageData, DateTime,NewMessage)"
-					+ " VALUES(5,'admin','user','akoma na steileis to project?', NOW(),false) ");
+					+ " VALUES(5,'admin','user','see ya!', NOW(),false) ");
 			
 			
 			
