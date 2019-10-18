@@ -16,11 +16,11 @@ public class FileAccess {
 			File file=null;
 			Scanner sc=null;
 			try {
-				file=new File("C:\\Users\\haris_lnf3mxz\\Desktop\\BOOTCAMP\\git\\15.txt.txt");
+				file=new File("C:\\Users\\haris_lnf3mxz\\Desktop\\BOOTCAMP\\git\\15.txt");
 				sc = new Scanner(file);
 				
 			} catch (Exception ex) {
-				System.out.println("paparia ");
+				System.out.println("test file ");
 			} 
 			
 			String test1=sc.next();
